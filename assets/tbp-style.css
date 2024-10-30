@@ -1,0 +1,26 @@
+.tbp-flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.tbp-flex-item {
+  /*padding: 5px;*/
+  width: 45%;
+  /*height: 150px;*/
+  margin-top: 10px;
+}
+
+.tbp-flex-item img {
+    width: 100%;
+    height: auto;
+}
